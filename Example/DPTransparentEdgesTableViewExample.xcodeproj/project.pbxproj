@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		942BCC051965D2B200E42757 /* DPTransparentEdgesScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942BCC041965D2B200E42757 /* DPTransparentEdgesScrollView.swift */; };
+		94326B841965A689008620EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94326B831965A689008620EC /* AppDelegate.swift */; };
+		94326B861965A689008620EC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94326B851965A689008620EC /* Images.xcassets */; };
+		94326B921965A689008620EC /* DPTransparentEdgesTableViewExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94326B911965A689008620EC /* DPTransparentEdgesTableViewExampleTests.swift */; };
+		94326B9C1965A691008620EC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94326B9B1965A691008620EC /* QuartzCore.framework */; };
+		94326B9E1965A6B2008620EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94326B9D1965A6B2008620EC /* ViewController.swift */; };
+		94326BA01965A751008620EC /* DPTransparentEdgesTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94326B9F1965A751008620EC /* DPTransparentEdgesTableView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94326B8C1965A689008620EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94326B761965A688008620EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94326B7D1965A688008620EC;
+			remoteInfo = DPTransparentEdgesTableViewExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		942BCC041965D2B200E42757 /* DPTransparentEdgesScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPTransparentEdgesScrollView.swift; sourceTree = "<group>"; };
+		94326B7E1965A688008620EC /* DPTransparentEdgesTableViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DPTransparentEdgesTableViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94326B821965A689008620EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94326B831965A689008620EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		94326B851965A689008620EC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		94326B8B1965A689008620EC /* DPTransparentEdgesTableViewExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DPTransparentEdgesTableViewExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94326B901965A689008620EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94326B911965A689008620EC /* DPTransparentEdgesTableViewExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPTransparentEdgesTableViewExampleTests.swift; sourceTree = "<group>"; };
+		94326B9B1965A691008620EC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		94326B9D1965A6B2008620EC /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		94326B9F1965A751008620EC /* DPTransparentEdgesTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPTransparentEdgesTableView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94326B7B1965A688008620EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94326B9C1965A691008620EC /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94326B881965A689008620EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94326B751965A688008620EC = {
+			isa = PBXGroup;
+			children = (
+				94326B9B1965A691008620EC /* QuartzCore.framework */,
+				94326B801965A688008620EC /* DPTransparentEdgesTableViewExample */,
+				94326B8E1965A689008620EC /* DPTransparentEdgesTableViewExampleTests */,
+				94326B7F1965A688008620EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94326B7F1965A688008620EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94326B7E1965A688008620EC /* DPTransparentEdgesTableViewExample.app */,
+				94326B8B1965A689008620EC /* DPTransparentEdgesTableViewExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94326B801965A688008620EC /* DPTransparentEdgesTableViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				94326B831965A689008620EC /* AppDelegate.swift */,
+				94326B9D1965A6B2008620EC /* ViewController.swift */,
+				94326B9F1965A751008620EC /* DPTransparentEdgesTableView.swift */,
+				942BCC041965D2B200E42757 /* DPTransparentEdgesScrollView.swift */,
+				94326B851965A689008620EC /* Images.xcassets */,
+				94326B811965A689008620EC /* Supporting Files */,
+			);
+			path = DPTransparentEdgesTableViewExample;
+			sourceTree = "<group>";
+		};
+		94326B811965A689008620EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94326B821965A689008620EC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94326B8E1965A689008620EC /* DPTransparentEdgesTableViewExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				94326B911965A689008620EC /* DPTransparentEdgesTableViewExampleTests.swift */,
+				94326B8F1965A689008620EC /* Supporting Files */,
+			);
+			path = DPTransparentEdgesTableViewExampleTests;
+			sourceTree = "<group>";
+		};
+		94326B8F1965A689008620EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94326B901965A689008620EC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94326B7D1965A688008620EC /* DPTransparentEdgesTableViewExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94326B951965A689008620EC /* Build configuration list for PBXNativeTarget "DPTransparentEdgesTableViewExample" */;
+			buildPhases = (
+				94326B7A1965A688008620EC /* Sources */,
+				94326B7B1965A688008620EC /* Frameworks */,
+				94326B7C1965A688008620EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DPTransparentEdgesTableViewExample;
+			productName = DPTransparentEdgesTableViewExample;
+			productReference = 94326B7E1965A688008620EC /* DPTransparentEdgesTableViewExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94326B8A1965A689008620EC /* DPTransparentEdgesTableViewExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94326B981965A689008620EC /* Build configuration list for PBXNativeTarget "DPTransparentEdgesTableViewExampleTests" */;
+			buildPhases = (
+				94326B871965A689008620EC /* Sources */,
+				94326B881965A689008620EC /* Frameworks */,
+				94326B891965A689008620EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94326B8D1965A689008620EC /* PBXTargetDependency */,
+			);
+			name = DPTransparentEdgesTableViewExampleTests;
+			productName = DPTransparentEdgesTableViewExampleTests;
+			productReference = 94326B8B1965A689008620EC /* DPTransparentEdgesTableViewExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94326B761965A688008620EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Denis Prokopchuk";
+				TargetAttributes = {
+					94326B7D1965A688008620EC = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					94326B8A1965A689008620EC = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 94326B7D1965A688008620EC;
+					};
+				};
+			};
+			buildConfigurationList = 94326B791965A688008620EC /* Build configuration list for PBXProject "DPTransparentEdgesTableViewExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 94326B751965A688008620EC;
+			productRefGroup = 94326B7F1965A688008620EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94326B7D1965A688008620EC /* DPTransparentEdgesTableViewExample */,
+				94326B8A1965A689008620EC /* DPTransparentEdgesTableViewExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94326B7C1965A688008620EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94326B861965A689008620EC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94326B891965A689008620EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94326B7A1965A688008620EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94326B9E1965A6B2008620EC /* ViewController.swift in Sources */,
+				942BCC051965D2B200E42757 /* DPTransparentEdgesScrollView.swift in Sources */,
+				94326BA01965A751008620EC /* DPTransparentEdgesTableView.swift in Sources */,
+				94326B841965A689008620EC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94326B871965A689008620EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94326B921965A689008620EC /* DPTransparentEdgesTableViewExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94326B8D1965A689008620EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94326B7D1965A688008620EC /* DPTransparentEdgesTableViewExample */;
+			targetProxy = 94326B8C1965A689008620EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		94326B931965A689008620EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94326B941965A689008620EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94326B961965A689008620EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = DPTransparentEdgesTableViewExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		94326B971965A689008620EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = DPTransparentEdgesTableViewExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		94326B991965A689008620EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DPTransparentEdgesTableViewExample.app/DPTransparentEdgesTableViewExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DPTransparentEdgesTableViewExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		94326B9A1965A689008620EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DPTransparentEdgesTableViewExample.app/DPTransparentEdgesTableViewExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DPTransparentEdgesTableViewExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94326B791965A688008620EC /* Build configuration list for PBXProject "DPTransparentEdgesTableViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94326B931965A689008620EC /* Debug */,
+				94326B941965A689008620EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94326B951965A689008620EC /* Build configuration list for PBXNativeTarget "DPTransparentEdgesTableViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94326B961965A689008620EC /* Debug */,
+				94326B971965A689008620EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94326B981965A689008620EC /* Build configuration list for PBXNativeTarget "DPTransparentEdgesTableViewExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94326B991965A689008620EC /* Debug */,
+				94326B9A1965A689008620EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94326B761965A688008620EC /* Project object */;
+}
