@@ -40,6 +40,10 @@ class DPTransparentEdgesTableView: UITableView {
     }
     
     override func observeValueForKeyPath(keyPath: String!, ofObject object: AnyObject!, change: NSDictionary!, context: CMutableVoidPointer) {
+        refresh()
+    }
+    
+    func refresh() {
         let offsetY = contentOffset.y;
         if offsetY > 0 {
             if !showTopMask {
@@ -60,7 +64,7 @@ class DPTransparentEdgesTableView: UITableView {
         
         refreshGradient()
     }
-
+    
     func refreshGradient() {
         // Creating our gradient mask
         let maskLayer = CAGradientLayer()
@@ -106,5 +110,6 @@ class DPTransparentEdgesTableView: UITableView {
     
     override func layoutSubviews() {
         super.layoutSubviews()
+        refresh()
     }
 }

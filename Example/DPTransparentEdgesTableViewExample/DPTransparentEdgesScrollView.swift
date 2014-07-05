@@ -35,6 +35,10 @@ class DPTransparentEdgesScrollView: UIScrollView {
     }
     
     override func observeValueForKeyPath(keyPath: String!, ofObject object: AnyObject!, change: NSDictionary!, context: CMutableVoidPointer) {
+        refresh()
+    }
+    
+    func refresh() {
         let offsetY = contentOffset.y;
         if offsetY > 0 {
             if !showTopMask {
@@ -101,5 +105,6 @@ class DPTransparentEdgesScrollView: UIScrollView {
     
     override func layoutSubviews() {
         super.layoutSubviews()
+        refresh()
     }
 }
