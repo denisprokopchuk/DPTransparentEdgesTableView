@@ -35,6 +35,10 @@ class DPTransparentEdgesTableView: UITableView {
         addObserver(self, forKeyPath: "contentOffset", options: nil, context: nil)
     }
 
+    deinit {
+        removeObserver(self, forKeyPath: "contentOffset")
+    }
+    
     override func observeValueForKeyPath(keyPath: String!, ofObject object: AnyObject!, change: NSDictionary!, context: CMutableVoidPointer) {
         let offsetY = contentOffset.y;
         if offsetY > 0 {
